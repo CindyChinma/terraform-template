@@ -11,7 +11,7 @@ resource "kubernetes_ingress_v1" "my-ingress" {
 
   spec {
     rule {
-      host = "voting.cindychinma123.me"
+      host = "vote.cindychinma123.me"
       http {
         path {
           backend {
