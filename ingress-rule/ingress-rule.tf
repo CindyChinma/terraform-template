@@ -1,4 +1,4 @@
-resource "kubernetes_ingress_v1" "my-ingress" {
+resource "kubernetes_ingress_v1" "voting-ingress" {
   metadata {
     name      = "azure-vote-front"
     labels = {
@@ -11,7 +11,7 @@ resource "kubernetes_ingress_v1" "my-ingress" {
 
   spec {
     rule {
-      host = "vote.cindychinma123.me"
+      host = "voting.cindychinma123.me"
       http {
         path {
           backend {
