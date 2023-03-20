@@ -32,6 +32,6 @@ spec:
       path:
         backend:
           service:
-            name: About-me
+            name: azure-vote-front
             port:
               number: 80

@@ -16,7 +16,7 @@ resource "kubernetes_ingress_v1" "voting-ingress" {
         path {
           backend {
             service{
-              name = "About-me"
+              name = "azure-vote-front"
               port {
                 number = 80
               }
